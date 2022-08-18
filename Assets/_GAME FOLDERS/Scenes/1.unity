@@ -6398,6 +6398,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1953796336214954555, guid: eff46d52bcd6e414898096c14b96867d, type: 3}
+      propertyPath: levelCompletedPanel
+      value: 
+      objectReference: {fileID: 3137443367264506979}
+    - target: {fileID: 1953796336214954555, guid: eff46d52bcd6e414898096c14b96867d, type: 3}
       propertyPath: sounds.Array.data[0]
       value: 
       objectReference: {fileID: 1953796337027267868}
@@ -6507,6 +6511,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 813002530}
+    - target: {fileID: 652618442, guid: a531a7a5129465e4eaab8976be082288, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3137443367046095883, guid: a531a7a5129465e4eaab8976be082288, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -6605,6 +6613,11 @@ PrefabInstance:
       objectReference: {fileID: 963194227}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a531a7a5129465e4eaab8976be082288, type: 3}
+--- !u!1 &3137443367264506979 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 652618442, guid: a531a7a5129465e4eaab8976be082288, type: 3}
+  m_PrefabInstance: {fileID: 3137443367264506978}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3475658718280359400
 PrefabInstance:
   m_ObjectHideFlags: 0

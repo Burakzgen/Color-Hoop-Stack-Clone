@@ -13,6 +13,8 @@ public class GameManager : MonoBehaviour
     private int _completedStandValue;
 
     [SerializeField] private AudioSource[] sounds;
+    [SerializeField] private GameObject levelCompletedPanel;
+
 
     private void Update()
     {
@@ -107,6 +109,7 @@ public class GameManager : MonoBehaviour
         if (_completedStandValue == targetStandValue)
         {
             Debug.Log("WIN WINDOW");
+            levelCompletedPanel.SetActive(true);
         }
     }
     public void OnClickButtonControls(string butonValue)
